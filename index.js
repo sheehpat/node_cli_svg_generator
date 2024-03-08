@@ -8,7 +8,6 @@ const questions = [
       type: 'input',
       message: 'What text would you like to include (3 letters max)?',
       name: 'svgText',
-      default: 'SVG Text',
       validate:  (svgText) => {
         if (svgText.length <= 3) {
           return true;
@@ -22,9 +21,8 @@ const questions = [
       type: 'input',
       message: 'What color should the text be?',
       name: 'textColor',
-      default: 'Text Color',
       validate: (textColor) => {
-        if (textColor.length != '') {
+        if (textColor.length != 0) {
           return true;
         } else {
           
@@ -36,9 +34,8 @@ const questions = [
       type: 'input',
       message: 'What color should the SVG shape be?',
       name: 'svgColor',
-      defauft: 'Shape Color',
       validate: (svgColor) => {
-        if (svgColor.length != '') {
+        if (svgColor.length != 0) {
           return true;
         } else {
           
