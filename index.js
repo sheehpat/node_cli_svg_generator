@@ -36,7 +36,7 @@ const questions = [
       type: 'input',
       message: 'What color should the SVG shape be?',
       name: 'svgColor',
-      defauft: 'Shape Color'
+      defauft: 'Shape Color',
       validate: (svgColor) => {
         if (svgColor.length != '') {
           return true;
@@ -59,12 +59,12 @@ const questions = [
 
 
 
-
+//Inquirer function: asks questions and renders shapes accordingly
 function init() {
   inquirer.prompt(questions)
   .then((response) =>  
  createSVG(response));
 }
-
+//Initializes the app when called
 init();
 
