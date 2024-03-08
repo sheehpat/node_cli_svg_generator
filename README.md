@@ -6,7 +6,7 @@ This is a CLI application that constructs a simple, custom SVG logo with 3 lette
   
 # Visuals
 [SVG Example](./examples/circle.svg)
-[VideoRecording]()
+[VideoRecording](https://drive.google.com/file/d/105CCVYhE4JWcYRNUazdb1Vy9C36A7PP7/view)
 
 # Technologies Used
 Node.js, Inquirer, Jest
